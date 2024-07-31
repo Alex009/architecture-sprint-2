@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
   <diagram name="Page-1" id="-H_mtQnk-PTXWXPvYvuk">
-    <mxGraphModel dx="2352" dy="864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2722" dy="1961" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -91,14 +91,6 @@
         <mxCell id="Lyd-lEIhE1725QVAAXBL-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Lyd-lEIhE1725QVAAXBL-31" source="Lyd-lEIhE1725QVAAXBL-2" target="Lyd-lEIhE1725QVAAXBL-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zA23MoTUsTF4_91t8viU-3" value="pymongo-api" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="340" y="130" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="zA23MoTUsTF4_91t8viU-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="zA23MoTUsTF4_91t8viU-3" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="720" y="380" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="Lyd-lEIhE1725QVAAXBL-51" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.145;entryY=0;entryDx=0;entryDy=4.35;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="Lyd-lEIhE1725QVAAXBL-46" target="Lyd-lEIhE1725QVAAXBL-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -121,23 +113,6 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Lyd-lEIhE1725QVAAXBL-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="Lyd-lEIhE1725QVAAXBL-45" target="Lyd-lEIhE1725QVAAXBL-44">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Lyd-lEIhE1725QVAAXBL-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;curved=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="Lyd-lEIhE1725QVAAXBL-44" target="Lyd-lEIhE1725QVAAXBL-46">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="230" y="360" />
-              <mxPoint x="-30" y="360" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Lyd-lEIhE1725QVAAXBL-64" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;jumpStyle=arc;" edge="1" parent="1" source="zA23MoTUsTF4_91t8viU-3" target="Lyd-lEIhE1725QVAAXBL-95">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Lyd-lEIhE1725QVAAXBL-65" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;jumpStyle=arc;" edge="1" parent="1" source="zA23MoTUsTF4_91t8viU-3" target="Lyd-lEIhE1725QVAAXBL-97">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Lyd-lEIhE1725QVAAXBL-66" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;jumpStyle=arc;" edge="1" parent="1" source="zA23MoTUsTF4_91t8viU-3" target="Lyd-lEIhE1725QVAAXBL-99">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Lyd-lEIhE1725QVAAXBL-71" value="" style="group;verticalAlign=bottom;" vertex="1" connectable="0" parent="1">
@@ -211,12 +186,6 @@
         <mxCell id="Lyd-lEIhE1725QVAAXBL-83" value="MongoDB&lt;br&gt;router-3" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="780" y="380" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Lyd-lEIhE1725QVAAXBL-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zA23MoTUsTF4_91t8viU-3" target="Lyd-lEIhE1725QVAAXBL-81">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Lyd-lEIhE1725QVAAXBL-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zA23MoTUsTF4_91t8viU-3" target="Lyd-lEIhE1725QVAAXBL-83">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="Lyd-lEIhE1725QVAAXBL-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.424;entryY=-0.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Lyd-lEIhE1725QVAAXBL-82" target="Lyd-lEIhE1725QVAAXBL-72">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -246,6 +215,92 @@
         </mxCell>
         <mxCell id="Lyd-lEIhE1725QVAAXBL-102" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Связи с master-slave&lt;/h1&gt;&lt;p&gt;Приложение должно иметь доступ к обоим нодам каждой пары master-slave. На диаграмме показана одна связь до пары целиком для разгрузки самой диаграммы. Но прямдой доступ по сети должен быть реализован для обеспечения возможности работы пары в случае отказа мастера.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-400" y="380" width="290" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="Lyd-lEIhE1725QVAAXBL-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Lyd-lEIhE1725QVAAXBL-103" target="Lyd-lEIhE1725QVAAXBL-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lyd-lEIhE1725QVAAXBL-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Lyd-lEIhE1725QVAAXBL-103" target="Lyd-lEIhE1725QVAAXBL-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lyd-lEIhE1725QVAAXBL-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Lyd-lEIhE1725QVAAXBL-103" target="Lyd-lEIhE1725QVAAXBL-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lyd-lEIhE1725QVAAXBL-103" value="apisix gateway&lt;br&gt;с модулем consul_kv" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="-110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lyd-lEIhE1725QVAAXBL-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Lyd-lEIhE1725QVAAXBL-105" target="Lyd-lEIhE1725QVAAXBL-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lyd-lEIhE1725QVAAXBL-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Lyd-lEIhE1725QVAAXBL-105" target="Lyd-lEIhE1725QVAAXBL-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lyd-lEIhE1725QVAAXBL-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Lyd-lEIhE1725QVAAXBL-105" target="Lyd-lEIhE1725QVAAXBL-128">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lyd-lEIhE1725QVAAXBL-105" value="браузер" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="-270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lyd-lEIhE1725QVAAXBL-111" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="180" y="40" width="490" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Lyd-lEIhE1725QVAAXBL-110" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Lyd-lEIhE1725QVAAXBL-111">
+          <mxGeometry width="490" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zA23MoTUsTF4_91t8viU-3" value="pymongo-api" style="rounded=1;whiteSpace=wrap;html=1;" parent="Lyd-lEIhE1725QVAAXBL-111" vertex="1">
+          <mxGeometry x="20" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lyd-lEIhE1725QVAAXBL-108" value="pymongo-api" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Lyd-lEIhE1725QVAAXBL-111">
+          <mxGeometry x="185" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lyd-lEIhE1725QVAAXBL-109" value="pymongo-api" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Lyd-lEIhE1725QVAAXBL-111">
+          <mxGeometry x="350" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lyd-lEIhE1725QVAAXBL-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Lyd-lEIhE1725QVAAXBL-110" target="Lyd-lEIhE1725QVAAXBL-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lyd-lEIhE1725QVAAXBL-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Lyd-lEIhE1725QVAAXBL-110" target="Lyd-lEIhE1725QVAAXBL-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lyd-lEIhE1725QVAAXBL-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Lyd-lEIhE1725QVAAXBL-110" target="Lyd-lEIhE1725QVAAXBL-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lyd-lEIhE1725QVAAXBL-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;curved=0;startArrow=classic;startFill=1;jumpStyle=arc;" edge="1" parent="1" source="Lyd-lEIhE1725QVAAXBL-44" target="Lyd-lEIhE1725QVAAXBL-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="360" />
+              <mxPoint x="-30" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lyd-lEIhE1725QVAAXBL-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Lyd-lEIhE1725QVAAXBL-110" target="Lyd-lEIhE1725QVAAXBL-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lyd-lEIhE1725QVAAXBL-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Lyd-lEIhE1725QVAAXBL-110" target="Lyd-lEIhE1725QVAAXBL-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lyd-lEIhE1725QVAAXBL-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Lyd-lEIhE1725QVAAXBL-110" target="Lyd-lEIhE1725QVAAXBL-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lyd-lEIhE1725QVAAXBL-120" value="etcd&lt;br&gt;база данных для apisix" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="-110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lyd-lEIhE1725QVAAXBL-123" value="consul&lt;br&gt;Service Discovery" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="764" y="-110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lyd-lEIhE1725QVAAXBL-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Lyd-lEIhE1725QVAAXBL-110" target="Lyd-lEIhE1725QVAAXBL-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lyd-lEIhE1725QVAAXBL-126" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Связи с приложением&lt;/h1&gt;&lt;p&gt;от APISIX связь идет до всех нод приложения.&lt;br&gt;И также от каждой ноды приложения идет связь с каждой нодой redis, каждым роутером и каджая нода приложения связана с consul.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="10" width="290" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Lyd-lEIhE1725QVAAXBL-127" value="CDN&lt;br&gt;region-1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="-370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lyd-lEIhE1725QVAAXBL-128" value="CDN&lt;br&gt;region-2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="-280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lyd-lEIhE1725QVAAXBL-131" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Связь с CDN&lt;/h1&gt;&lt;div&gt;Выбор конкретной ноды для статики будет происходить автоматически за счет GeoDNS, поэтому по правде в каждом регионе своя нода со своей копией данных, а браузер конкретного пользователя обратится только к одной из нод, при чем для каждого пользователя она будет наиболее оптимальная.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="884" y="-360" width="290" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
