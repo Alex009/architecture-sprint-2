@@ -241,6 +241,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="Lyd-lEIhE1725QVAAXBL-101" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Связи с ReplicaSet&lt;/h1&gt;&lt;p&gt;Связи направленные к ReplicaSet означают что связь устанвливается со всеми нодами данного ReplicaSet. То есть роутеры должны иметь доступ до всех нод из обоих шардов, а также до всех&amp;nbsp; нод конфиг сервера.&lt;br&gt;&lt;br&gt;Шарды в свою очередь каждая нода должна иметь доступ до каждой ноды конфиг сервера.&lt;br&gt;&lt;br&gt;Это нужно для перенаправления трафика при отказах. В явном виде данные связи не отрисованы чтобы не переусложнять схему.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="390" width="290" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="Lyd-lEIhE1725QVAAXBL-102" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Связи с master-slave&lt;/h1&gt;&lt;p&gt;Приложение должно иметь доступ к обоим нодам каждой пары master-slave. На диаграмме показана одна связь до пары целиком для разгрузки самой диаграммы. Но прямдой доступ по сети должен быть реализован для обеспечения возможности работы пары в случае отказа мастера.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="380" width="290" height="260" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
