@@ -369,71 +369,6 @@ services:
       test: [ "CMD", "redis-cli", "--raw", "incr", "ping" ]
       interval: 5s
       start_period: 10s
-  redis-2:
-    image: "redis:latest"
-    volumes:
-      - redis-2-data:/data
-      - ./redis.conf:/usr/local/etc/redis/redis.conf
-    command: [ "redis-server", "/usr/local/etc/redis/redis.conf" ]
-    networks:
-      app-network:
-        ipv4_address: 173.17.5.2
-    healthcheck:
-      test: [ "CMD", "redis-cli", "--raw", "incr", "ping" ]
-      interval: 5s
-      start_period: 10s
-  redis-3:
-    image: "redis:latest"
-    volumes:
-      - redis-3-data:/data
-      - ./redis.conf:/usr/local/etc/redis/redis.conf
-    command: [ "redis-server", "/usr/local/etc/redis/redis.conf" ]
-    networks:
-      app-network:
-        ipv4_address: 173.17.5.3
-    healthcheck:
-      test: [ "CMD", "redis-cli", "--raw", "incr", "ping" ]
-      interval: 5s
-      start_period: 10s
-  redis-4:
-    image: "redis:latest"
-    volumes:
-      - redis-4-data:/data
-      - ./redis.conf:/usr/local/etc/redis/redis.conf
-    command: [ "redis-server", "/usr/local/etc/redis/redis.conf" ]
-    networks:
-      app-network:
-        ipv4_address: 173.17.5.4
-    healthcheck:
-      test: [ "CMD", "redis-cli", "--raw", "incr", "ping" ]
-      interval: 5s
-      start_period: 10s
-  redis-5:
-    image: "redis:latest"
-    volumes:
-      - redis-5-data:/data
-      - ./redis.conf:/usr/local/etc/redis/redis.conf
-    command: [ "redis-server", "/usr/local/etc/redis/redis.conf" ]
-    networks:
-      app-network:
-        ipv4_address: 173.17.5.5
-    healthcheck:
-      test: [ "CMD", "redis-cli", "--raw", "incr", "ping" ]
-      interval: 5s
-      start_period: 10s
-  redis-6:
-    image: "redis:latest"
-    volumes:
-      - redis-6-data:/data
-      - ./redis.conf:/usr/local/etc/redis/redis.conf
-    command: [ "redis-server", "/usr/local/etc/redis/redis.conf" ]
-    networks:
-      app-network:
-        ipv4_address: 173.17.5.6
-    healthcheck:
-      test: [ "CMD", "redis-cli", "--raw", "incr", "ping" ]
-      interval: 5s
-      start_period: 10s
 
   # application
   pymongo_api:
@@ -450,7 +385,7 @@ services:
 #      приложение не поддерживает работу с множеством роутеров, но так как схема в диаграмме делалась под 3 роутера - пример оставляю тут
 #      MONGODB_URL: "mongodb://mongos_router-1:27020,mongos_router-2:27020,mongos_router-3:27020"
       MONGODB_URL: "mongodb://mongos_router-1:27020"
-#      приложение не поддерживает работу с редис кластером, но на схеме отображался кластер, поэтому пример строки подключения к нему
+#      приложение не поддерживает работу с редис кластером, но на схеме отображался кластер, поэтому только 1 редис
       REDIS_URL: "redis://redis-1:6379"
       MONGODB_DATABASE_NAME: "somedb"
     depends_on:
@@ -482,8 +417,3 @@ volumes:
   shard2-2-data:
   shard2-3-data:
   redis-1-data: 
-  redis-2-data: 
-  redis-3-data: 
-  redis-4-data: 
-  redis-5-data: 
-  redis-6-data: 

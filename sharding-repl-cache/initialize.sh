@@ -19,9 +19,11 @@ echo "fill data"
 ./fill-data.sh
 
 echo "setup redis"
-docker compose up -d --wait redis-1 redis-2 redis-3 redis-4 redis-5 redis-6
+# приложение не работает с редис кластером, запускаем обычный редис
+docker compose up -d --wait redis-1
+#docker compose up -d --wait redis-1 redis-2 redis-3 redis-4 redis-5 redis-6
 
-./init-redis.sh
+#./init-redis.sh
 
 echo "start application"
 docker compose up -d --wait 

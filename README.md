@@ -37,6 +37,7 @@ curl --silent http://ifconfig.me
 ## Пояснения к решению
 
 Диаграмма доступна по [ссылке](./diagrams/task1.drawio).
+Выполненные решения доступны в папках mongo-sharding, mongo-sharding-repl и sharding-repl-cache. У каждого есть README.md с инструкцией по запуску и проверке.
 
 ### Кластер MongoDB
 
